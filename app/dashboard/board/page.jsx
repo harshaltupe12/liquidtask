@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect  } from "react";
 import "./style.css";
+import Navbar from "../../_components/Navbar";
 
 const Board = () => {
   const [backlog, setBacklog] = useState([]);
@@ -77,6 +78,7 @@ const Board = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="add-ticket">
         <input
           type="text"

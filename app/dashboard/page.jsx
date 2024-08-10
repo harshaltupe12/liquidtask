@@ -1,8 +1,11 @@
 import React from 'react'
+import Board from './board/page'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Board/>
+    </div>
   )
 }
 
